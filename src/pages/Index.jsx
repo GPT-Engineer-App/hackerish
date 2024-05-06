@@ -67,6 +67,9 @@ const Index = () => {
           </Box>
         ))}
       </VStack>
+      <Box as="footer" py={5} textAlign="center" borderTop="1px" borderColor="gray.200" mt={10}>
+        <Text fontSize="sm">&copy; 2024 Hacker News Clone. All rights reserved.</Text>
+      </Box>
     </Container>
   );
 };
